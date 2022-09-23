@@ -4,6 +4,8 @@
     flex-direction: column;
     margin: 5px;
     background-color: red;
+    border: 2px solid ;
+    border-radius: 5px;
 }
 
 .Card .Header {
@@ -14,7 +16,6 @@
 .Card .Header .Title {
     flex: 1;
     padding: 5px;
-    background-color: brown;
 }
 
 .Card .Content {
@@ -23,3 +24,12 @@
 
 .Card.Red .Header { color: #FFF; background-color: #c62828;}
 .Card.Red .Content { background-color: #f44336;}
+
+.Card.Green .Header { color: #FFF; background-color: #086b1d;}
+.Card.Green .Content { background-color: #24b330;}
+
+.Card.Blue .Header { color: #FFF; background-color: #1520b8;}
+.Card.Blue .Content { background-color: #3d53b9;}
+
+.Card.Purple .Header { color: #FFF; background-color: #6b1194;}
+.Card.Purple .Content { background-color: #9442ca;}
