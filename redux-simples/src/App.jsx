@@ -1,6 +1,9 @@
-import { useState } from 'react'
 import './App.css'
-import Card from './Card'
+import Intervalo from './components/Intervalo'
+import Media from './components/Media'
+import Soma from './components/Soma'
+import Sorteio from './components/Sorteio'
+import { useStore } from 'react-redux'
 
 function App() {
 
@@ -8,20 +11,12 @@ function App() {
     <div className="App">
       <h1>Exercício React - Redux (Simples)</h1>
       <div className="linha">
-        <Card title="Card 1" red>
-          Conteúdo
-        </Card>
-        <Card title="Card 2" green>
-          Conteúdo
-        </Card>
+        <Intervalo>Conteúdo</Intervalo>
       </div>
       <div className="linha">
-        <Card title="Card 3" blue>
-          Y
-        </Card>
-        <Card title="Card 4" purple>
-          Y
-        </Card>
+        <Media />
+        <Soma />
+        <Sorteio />
       </div>
     </div>
   )
