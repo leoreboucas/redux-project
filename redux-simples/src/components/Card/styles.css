@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     margin: 5px;
-    background-color: red;
     border: 2px solid ;
     border-radius: 5px;
 }
@@ -33,3 +32,6 @@
 
 .Card.Purple .Header { color: #FFF; background-color: #6b1194;}
 .Card.Purple .Content { background-color: #9442ca;}
+
+.Card.Gray .Header { color: #FFF; background-color: rgb(75, 74, 74);}
+.Card.Gray .Content { background-color: #777;}

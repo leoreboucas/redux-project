@@ -1,9 +1,9 @@
 import './App.css'
 import Intervalo from './components/Intervalo'
+import ListaDeNomes from './components/ListaDeNomes'
 import Media from './components/Media'
 import Soma from './components/Soma'
 import Sorteio from './components/Sorteio'
-import { useStore } from 'react-redux'
 
 function App() {
 
@@ -17,6 +17,9 @@ function App() {
         <Media />
         <Soma />
         <Sorteio />
+      </div>
+      <div className="linha">
+        <ListaDeNomes />
       </div>
     </div>
   )
